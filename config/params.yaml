@@ -1,0 +1,67 @@
+dfm27uro135ml:
+  serial:
+    cam: "13910330"
+
+  properties:
+    GPIn: 0
+    GPOut: 0
+    OffsetAutoCenter: true
+    OffsetX: 0
+    OffsetY: 0
+    OverrideScanningMode: 0
+    StrobeEnable: false
+    StrobeExposure: false
+    StrobePolarity: false
+    TriggerDelayUs: 0
+    TriggerGlobalResetRelease: false
+    TriggerMode: false
+    cameraWhitebalance: false
+    whitebalanceAuto: true
+    whitebalanceBlue: 64
+    whitebalanceGreen: 64
+    whitebalanceModuleEnabled: true
+    whitebalanceRed: 64
+    Brightness: 16
+    BrightnessReference: 60
+    ExposureTimeUs: 33300
+    ExposureAuto: true
+    ExposureMin: 100
+    ExposureMax: 33300
+    Gain: 48
+    GainDB100: 0
+    GainAuto: false
+    GainMin: 48.0
+    GainMax: 2047.0
+    ExposureROILeft: 0
+    ExposureROIWidth: 1024
+    ExposureROITop: 0
+    ExposureROIHeight: 768
+
+  formats:
+    name: "video/x-raw"
+    format: "BGR"
+    width: 1024
+    height: 768
+    fps: 10
+
+  rosEncodingType:
+    grbg: "8UC3"
+    GRAY8: "mono8"
+    GRAY16_LE: "mono16"
+    RGB: "rgb8"
+    BGR: "bgr8"
+    RGBA: "rgba8"
+    ARGB: "8UC4"
+    BGRA: "bgra8"
+    ABGR: "8UC4"
+
+  rosNumChannels:
+    grbg: 3
+    GRAY8: 1
+    GRAY16_LE: 1
+    RGB: 3
+    BGR: 3
+    RGBA: 4
+    ARGB: 4
+    BGRA: 4
+    ABGR: 4
